@@ -1,0 +1,69 @@
+{
+  "name": "hubot-csf",
+  "version": "0.1.0",
+  "author": {
+    "name": "Thomas Howe",
+    "url": "github.com/howethomas"
+  },
+  "contributors": [
+    {
+      "name": "Thomas Howe",
+      "email": "ghostofbasho@gmail.com"
+    }
+  ],
+  "keywords": [
+    "hubot",
+    "csf",
+    "adapter"
+  ],
+  "description": "A CSF adapter for hubot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/howethomas/hubot-csf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/howethomas/hubot-csf/issues",
+    "email": "ghostofbasho@gmail.com"
+  },
+  "dependencies": {
+    "rwlock": "^5.0.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+  "main": "./src/csf",
+  "engines": {
+    "node": ">=0.4.7"
+  },
+  "homepage": "https://github.com/howethomas/hubot-csf",
+  "_id": "hubot-csf@0.4.4",
+  "scripts": {},
+  "_shasum": "12ba6a9d9f266ef833e38a679714137b7c811c23",
+  "_from": "hubot-csf@0.4.4",
+  "gitHead": "fcc07a4e96b1ced52d08b3054145828bd2ad1a41",
+  "_npmVersion": "2.1.4",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "name": "howethomas",
+    "email": "ghostofbasho@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "howethomas",
+      "email": "ghostofbasho@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "12ba6a9d9f266ef833e38a679714137b7c811c23",
+    "tarball": "http://registry.npmjs.org/hubot-csf/-/hubot-csf-0.4.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/hubot-csf/-/hubot-csf-0.4.4.tgz"
+}
