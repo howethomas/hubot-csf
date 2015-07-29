@@ -11,7 +11,7 @@ Request = require('request')
 ReadWriteLock = require('rwlock')
 Util = require('util')
 
-class Nexmo extends Adapter
+class Csf extends Adapter
 
   constructor: (robot) ->
     super(robot)
@@ -124,7 +124,7 @@ class Nexmo extends Adapter
     server = app.listen(listen_port, ->
       host = server.address().address
       port = server.address().port
-      console.log "Nexmo listening locally at http://%s:%s", host, port
+      console.log "CSF listening locally at http://%s:%s", host, port
       console.log "External URL is #{callback_url}"
       return
     )
