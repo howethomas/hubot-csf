@@ -130,16 +130,6 @@ class Csf extends Adapter
     )
 
     @emit "connected"
-
-    # Go through all of the active numbers, and add them.
-    redis_client = Redis.createClient()
-    redis_client.smembers("CSF_NUMBERS",
-      (err, reply) =>
-        console.log "Registering the following numbers: #{reply.join()}"
-        for number in reply
-          @set_callback number, "US", callback_url
-          @active_numbers.push number
-      )
-
+    
 exports.use = (robot) ->
-  new Nexmo robot
+  new Csf robot
